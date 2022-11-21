@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex3</title>
+  <style>
+    #container {
+      display: flex;
+      margin: 0 auto;
+      width: 1000px;
+      height: 1000px;
+
+      box-sizing: border-box;
+    }
+
+    .left-content {
+      margin: 0 auto;
+      display: flex;
+
+      flex-flow: row wrap;
+
+      justify-content: center;
+      align-items: center;
+
+      width: 500px;
+      height: 500px;
+
+      background-color: cyan;
+
+    }
+
+    .box1 {
+      display: flex;
+
+      flex-flow: row wrap;
+
+      justify-content: center;
+      align-items: center;
+
+      width: 80%;
+      height: 80%;
+
+      background-color: crimson;
+    }
+
+    .box2 {
+      display: flex;
+
+      flex-flow: row wrap;
+
+      justify-content: center;
+      align-items: center;
+
+      width: 60%;
+      height: 60%;
+
+      background-color: rgb(225, 255, 53);
+    }
+
+    .box3 {
+      display: flex;
+
+      flex-flow: row wrap;
+
+      justify-content: center;
+      align-items: center;
+
+
+      width: 40%;
+      height: 40%;
+
+      background-color: rgb(53, 208, 255);
+    }
+
+    .box4 {
+      display: flex;
+
+      flex-flow: row wrap;
+
+      justify-content: center;
+      align-items: center;
+
+      width: 20%;
+      height: 20%;
+
+      background-color: rgb(245, 133, 255);
+    }
+
+
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="left-content">
+      <div class="box1">
+        <div class="box2">
+          <div class="box3">
+            <div class="box4">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
